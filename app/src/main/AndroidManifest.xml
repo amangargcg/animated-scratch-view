@@ -11,16 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name=".CardViewActivity">
+
+        <activity android:name=".AnimatorSampleActivity" />
+        <activity android:name=".AdapterSampleActivity" />
+
+        <activity android:name=".MainActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CardViewActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
     </application>
-
 </manifest>
